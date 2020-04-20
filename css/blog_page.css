@@ -48,7 +48,7 @@
     text-decoration: underline;
 }
 
-.back-link a {
+.back-link-text {
     color: #014052;
 }
 
@@ -62,7 +62,7 @@
     color: #014052;
 }
 
-.post-content p {
+.post-content-text {
     font: 14px 'Open Sans', sans-serif;
     padding-top: 10px;
 }
@@ -90,7 +90,7 @@ img {
     margin: 2px;
 }
 
-.social a {
+.social-text {
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ img {
     margin-top: 50px;
 }
 
-.post-related ul {
+.post-related-list {
     color: #02b3e4;
 }
 

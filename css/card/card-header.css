@@ -5,32 +5,32 @@
     border-bottom: 5px solid #657482;
 }
 
-#ar .card-header {
+#ar{
     background-image: url('../../images/ar.jpg');
     background-size: cover;
 }
 
-#au .card-header {
+#au{
     background-image: url('../../images/au.jpg');
     background-size: cover;
 }
 
-#be .card-header {
+#be{
     background-image: url('../../images/be.jpg');
     background-size: cover;
 }
 
-#br .card-header {
+#br{
     background-image: url('../../images/br.jpg');
     background-size: cover;
 }
 
-#ch .card-header {
+#ch{
     background-image: url('../../images/ch.jpg');
     background-size: cover;
 }
 
-#cu .card-header {
+#cu{
     background-image: url('../../images/cu.jpg');
     background-size: cover;
 }
