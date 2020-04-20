@@ -1,0 +1,40 @@
+
+.card-body {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-title {
+    font: 25px 'Open Sans', sans-serif;
+}
+
+.card-meta {
+    margin-top: 5px;
+    font: 11px 'Open Sans', sans-serif;
+    color: #014052;
+}
+
+.card-button {
+    flex: 1;
+    background-color: #014052;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-text {
+    font: 14px 'Open Sans', sans-serif;
+    color: #F9F9FA;
+}

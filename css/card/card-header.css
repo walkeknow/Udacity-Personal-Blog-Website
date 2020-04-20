@@ -1,0 +1,36 @@
+
+
+.card-header {
+    height: 70%;
+    border-bottom: 5px solid #657482;
+}
+
+#ar .card-header {
+    background-image: url('../../images/ar.jpg');
+    background-size: cover;
+}
+
+#au .card-header {
+    background-image: url('../../images/au.jpg');
+    background-size: cover;
+}
+
+#be .card-header {
+    background-image: url('../../images/be.jpg');
+    background-size: cover;
+}
+
+#br .card-header {
+    background-image: url('../../images/br.jpg');
+    background-size: cover;
+}
+
+#ch .card-header {
+    background-image: url('../../images/ch.jpg');
+    background-size: cover;
+}
+
+#cu .card-header {
+    background-image: url('../../images/cu.jpg');
+    background-size: cover;
+}
