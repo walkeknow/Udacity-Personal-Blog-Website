@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+.container {
+    display: grid;
+    /* grid template rows / columns */
+    grid: 100px 1fr / repeat(3, 1fr);
+    grid-template-areas: "hr hr hr hr hr hr" "bod bod bod bod bod bod" "ft ft ft ft ft ft";
+}
+
+.navbar {
+    background-color: #02b3e4;
+    grid-area: hr;
+    font: 25px 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    grid-area: bod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #a4e4f5;
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+    background-color: #f9f9fa;
+}
+
+.card-header {
+    height: 70%;
+    border-bottom: 5px solid #657482;
+}
+
+#ar .card-header {
+    background-image: url('../images/ar.jpg');
+    background-size: cover;
+}
+
+#au .card-header {
+    background-image: url('../images/au.jpg');
+    background-size: cover;
+}
+
+#be .card-header {
+    background-image: url('../images/be.jpg');
+    background-size: cover;
+}
+
+#br .card-header {
+    background-image: url('../images/br.jpg');
+    background-size: cover;
+}
+
+#ch .card-header {
+    background-image: url('../images/ch.jpg');
+    background-size: cover;
+}
+
+#cu .card-header {
+    background-image: url('../images/cu.jpg');
+    background-size: cover;
+}
+
+.card-body {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-title {
+    font: 25px 'Open Sans', sans-serif;
+}
+
+.card-meta {
+    margin-top: 5px;
+    font: 11px 'Open Sans', sans-serif;
+    color: #014052;
+}
+
+.card-button {
+    flex: 1;
+    background-color: #014052;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-text {
+    font: 14px 'Open Sans', sans-serif;
+    color: #F9F9FA;
+}
+
+.footer {
+    grid-area: ft;
+    background-color: #02b3e4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+@media(min-width: 900px) {
+    .content {
+        grid-area: bod;
+        display: grid;
+        grid: repeat(3, 300px) / auto-flow 450px;
+        gap: 50px;
+        margin: 50px;
+    }
+}
