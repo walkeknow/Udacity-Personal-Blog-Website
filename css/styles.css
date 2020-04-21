@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("card/card-main.css");
 @import url("card/card-header.css");
 @import url("card/card-body.css");
 .container {
@@ -11,10 +11,14 @@
 .navbar {
     background-color: #02b3e4;
     grid-area: hr;
-    font: 25px 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    ;
+}
+
+#navbar-heading {
+    font: bold 25px sans-serif;
 }
 
 .content {
@@ -23,16 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid #a4e4f5;
-    height: 300px;
-    width: 450px;
-    margin: 20px;
-    background-color: #f9f9fa;
 }
 
 .footer {

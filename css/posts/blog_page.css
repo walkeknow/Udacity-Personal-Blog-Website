@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 .container {
     display: grid;
     /* grid template rows / columns */
@@ -10,10 +9,13 @@
 .navbar {
     background-color: #02b3e4;
     grid-area: hr;
-    font: 25px 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     padding-left: 20px;
+}
+
+#navbar-heading {
+    font: bold 25px sans-serif;
 }
 
 .content {
@@ -32,17 +34,30 @@
     border: 3px solid #a4e4f5;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .post-image {
-    background-image: url('../images/ar.jpg');
-    background-size: cover;
-    height: 250px;
-    margin: 15px 0 15px 0;
-    border-radius: 5px;
+    width: 100%;
+    margin: 15px 0 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.image-caption {
+    background-color: #a4e4f5;
+    ;
+    margin-bottom: 5px;
+    font: italic 14px sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
 }
 
 .back-link {
     grid-area: back;
-    font: 700 14px 'Open Sans', sans-serif;
+    font: 700 14px sans-serif;
     margin-left: 20px;
     padding-top: 20px;
     text-decoration: underline;
@@ -53,29 +68,30 @@
 }
 
 .post-title {
-    font: 600 32px 'Open Sans', sans-serif;
+    font: 600 32px sans-serif;
 }
 
 .post-meta {
     margin-top: 5px;
-    font: 12px 'Open Sans', sans-serif;
+    font: 12px sans-serif;
     color: #014052;
 }
 
 .post-content-text {
-    font: 14px 'Open Sans', sans-serif;
+    font: 14px sans-serif;
     padding-top: 10px;
 }
 
 .quote {
-    font: italic 600 14px 'Open Sans', sans-serif;
+    font: italic 600 14px sans-serif;
     color: #014052;
     background-color: #c8cdd2;
+    padding: 10px;
 }
 
 .social {
     display: flex;
-    font: 600 14px 'Open Sans', sans-serif;
+    font: 600 14px sans-serif;
     align-items: center;
     margin-top: 50px;
 }
@@ -84,7 +100,7 @@
     margin-left: 10px;
 }
 
-img {
+.social-image {
     width: 24px;
     height: 24px;
     margin: 2px;
@@ -95,7 +111,7 @@ img {
 }
 
 .post-related {
-    font: 600 14px 'Open Sans', sans-serif;
+    font: 600 14px sans-serif;
     margin-top: 50px;
 }
 
@@ -123,27 +139,25 @@ img {
         flex-direction: row;
     }
     .post-details {
-        flex:1;
+        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #c8cdd2;
+        background-color: #a4e4f5;
         margin-right: 15px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         border-radius: 5px;
     }
-    .post-image {
+    .image-container {
         flex: 1;
     }
-
     .post-related {
-        font: 600 14px 'Open Sans', sans-serif;
+        font: 600 14px sans-serif;
         margin-top: 10px;
     }
-
-    .post-image { 
+    .post-image {
         height: 300px;
     }
 }
